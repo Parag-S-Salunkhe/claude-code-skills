@@ -16,26 +16,22 @@ Almost always the description. Claude chooses from the description alone, so put
 
 Read them first: a skill is instructions your AI will follow, and scripts it may run. These ones use only the Python standard library and macOS built-ins, make no network calls (except `gh` in `workflow-runner`, which talks to GitHub as you), and never print secrets.
 
-5. <ins>Why are these "generic versions"?</ins>
+5. <ins>Is this all of them?</ins>
 
-The skills I use at work name internal systems, hosts and tools. Sanding those off would leave gaps, so these were rewritten from scratch with the same rules and structure and no internal details.
+No. I use eleven. The other four are runbooks for one specific workplace (two onboarding procedures, a troubleshooting guide and an access helper), so they wouldn't help anyone else. Their habits live on here: read-only checks first (`rca`), no password ever typed (`secrets-guard`), and nothing is done until the real outcome is checked (`save-learnings`).
 
-6. <ins>Is this all of them?</ins>
-
-No. I use eleven. The other four are pure workplace runbooks: two onboarding procedures, a troubleshooting guide keyed by error message, and a helper for reaching internal systems. Remove the internal details and nothing useful is left. Their habits live on here: read-only checks first (`rca`), no password ever typed (`secrets-guard`), and nothing is done until the real outcome is checked (`save-learnings`).
-
-7. <ins>Why not install existing skills instead of writing your own?</ins>
+6. <ins>Why not install existing skills instead of writing your own?</ins>
 
 Short version: a skill is instructions your AI follows with your access, many popular ones state rules without evidence or break platform terms, and none of them knew my rules. The ideas I did take, and who they came from, are in the README: [Built on other people's ideas](../README.md#built-on-other-peoples-ideas).
 
-8. <ins>Why does `linkedin-post` refuse to post for me?</ins>
+7. <ins>Why does `linkedin-post` refuse to post for me?</ins>
 
 LinkedIn's User Agreement bans bots and automated access, and accounts with automated activity get restricted. The skill drafts, checks and plans; you press Post.
 
-9. <ins>Why does `park-it` add items without asking?</ins>
+8. <ins>Why does `park-it` add items without asking?</ins>
 
 Because "should I add that to your list?" after every "later" is its own kind of nagging. It adds the item, confirms in one line, and reminds you at most about twice a week.
 
-10. <ins>Do the skills work on Windows or Linux?</ins>
+9. <ins>Do the skills work on Windows or Linux?</ins>
 
 The instructions do. `secrets-guard`'s scripts use the macOS keychain (`security`) and macOS commands. On Linux, use `secret-tool` (libsecret) instead; the rules stay the same.

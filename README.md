@@ -12,7 +12,7 @@
 
 A **skill** is a folder with a `SKILL.md`: instructions Claude Code loads only when your request matches its description. It's how you turn "the way I like this done" into something Claude does the same way every time.
 
-My motive: I run datacentre operations with Claude Code every day and built a set of skills for it. The work versions are full of internal names, so they can't be shared. **These are generic versions, rewritten from scratch,** with the same ideas: evidence before answers, every fix saved, notes that check themselves, and secrets the AI never sees.
+My motive: I run datacentre operations with Claude Code every day and built a set of skills for it. **These are the ones anyone can use,** built on the same ideas: evidence before answers, every fix saved, notes that check themselves, and secrets the AI never sees.
 
 **Built on other people's ideas.** Nothing here was installed from someone else, but a lot of it started as someone else's idea: obra/superpowers, Anthropic's skill-creator, Karpathy's LLM Wiki and nine open LinkedIn and writing skills. Each one is credited [below](#built-on-other-peoples-ideas), with the reasons I wrote my own instead of installing theirs.
 
