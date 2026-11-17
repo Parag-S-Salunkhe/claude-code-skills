@@ -1,0 +1,2 @@
+# Retired methods: one line per method, `regex<TAB>what to use instead`. Example:
+# ssh root@	the access wrapper script (no password typed)
