@@ -28,7 +28,7 @@ My motive: I run datacentre operations with Claude Code every day and built a se
 
 ## Built on other people's ideas
 
-I read these, took the ideas that fit, and wrote every line myself. No code or text was copied, so none of their licences apply here; this list is the credit.
+I read these, took the ideas that fit, and wrote every line myself. No code or text was copied, so none of their licences apply here; this list is the credit. Each skill's `SKILL.md` also ends with a Credits list linking its sources, so the credit stays with the skill if you copy only that folder.
 
 | Skill | Ideas from | What I took |
 |---|---|---|

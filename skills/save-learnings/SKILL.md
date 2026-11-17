@@ -47,3 +47,9 @@ Keep a small **doc map** at the top of this file once you have one: topic → me
 When a saved fact turns out to be wrong or stale: fix it in all three places, then add the guard that would have
 caught it (a retired pattern, an eval question, a canary test) and one row in a changelog: date, what was wrong, what
 guards it now.
+
+## Credits
+
+Ideas only, no text copied. These links are for people reading this file; Claude doesn't need to open them.
+
+- [mem0](https://github.com/mem0ai/mem0): decide ADD / UPDATE / DELETE / NOOP before writing anything.

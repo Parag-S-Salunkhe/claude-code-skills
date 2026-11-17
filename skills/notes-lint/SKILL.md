@@ -59,3 +59,10 @@ Copy and tick:
 
 - Report everything; change nothing until the user says yes. Never delete a memory file or doc section without a yes.
 - Don't "fix" open questions in the notes: they are real gaps in knowledge. List them so the user can answer them.
+
+## Credits
+
+Ideas only, no text copied. These links are for people reading this file; Claude doesn't need to open them.
+
+- [Karpathy's LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) and [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki): notes an AI keeps need a regular lint step.
+- [Claude Code memory docs](https://code.claude.com/docs/en/memory): the memory index only loads up to a limit.

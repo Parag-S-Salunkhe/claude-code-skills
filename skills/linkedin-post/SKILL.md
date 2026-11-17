@@ -104,3 +104,14 @@ If a personal file is missing, say so once and continue with what the user gives
 
 LinkedIn publishes no ranking weights. Never state reach multipliers as facts. When explaining why a choice helps,
 use the grade from `references/rulebook.md` (Definitive / Moderate / Folklore).
+
+## Credits
+
+Ideas only, no text copied. These links are for people reading this file; Claude doesn't need to open them.
+
+- [Jakeschincariol/linkedin-agent-skill](https://github.com/Jakeschincariol/linkedin-agent-skill): `{{your number}}` placeholders, one batched interview message, an off-limits list, flag rather than rewrite.
+- [shwetankg07/linkedin-writing](https://github.com/shwetankg07/linkedin-writing): a standard-library checker script with a self-test.
+- [noah-vl/linkedin-post-max](https://github.com/noah-vl/linkedin-post-max) and [mgritzbach/linkedin-creator-studio](https://github.com/mgritzbach/linkedin-creator-studio): edits change the voice file only after a yes; never imitate one viral outlier.
+- [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop): every flag names the pattern and quotes the line.
+- [blader/humanizer](https://github.com/blader/humanizer), [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) and [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing): AI-tell patterns, used as editing advice.
+- [Aboudjem/humanizer-skill](https://github.com/Aboudjem/humanizer-skill) and [ama-zingco/anti-ai-writing-skill](https://github.com/ama-zingco/anti-ai-writing-skill): never flag regional or non-native English.

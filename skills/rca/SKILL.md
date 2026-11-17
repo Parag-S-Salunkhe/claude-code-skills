@@ -57,3 +57,9 @@ Copy and tick:
 Keep a short list here of causes that sound right but have been disproved in your environment, each with the evidence
 that would be needed to cite it again. Example: "a bad cable, when there is no error burst in the kernel log: prove it
 with the log first".
+
+## Credits
+
+Ideas only, no text copied. These links are for people reading this file; Claude doesn't need to open them.
+
+- [obra/superpowers: systematic-debugging](https://github.com/obra/superpowers/tree/main/skills/systematic-debugging): the iron rule, one hypothesis at a time, stop after failed fixes (theirs at three, here at two).
