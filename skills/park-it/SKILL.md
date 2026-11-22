@@ -41,3 +41,7 @@ python3 <skill dir>/scripts/todo.py done 3
 - At the start of a session's first real task, run `todo.py remind`. It prints nothing unless due (5+ days since the
   last reminder, or 3-4 days with a 50% chance) and records the date itself.
 - A printed line goes at the end of a reply as-is: "Parked: <n> items on your to-do list (<two titles>)."
+
+## Credits
+
+My own daily rules, no outside source.

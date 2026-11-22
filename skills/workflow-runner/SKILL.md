@@ -59,3 +59,7 @@ Raised: <workflow> on <repo> (<key inputs>)
 https://github.com/<owner>/<repo>/actions/runs/<id>
 Status: queued / waiting for approval / in progress / success / failed at <step>
 ```
+
+## Credits
+
+My own daily rules, no outside source.
